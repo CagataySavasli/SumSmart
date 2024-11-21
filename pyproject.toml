@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sumsmart"
+version = "0.1.0"
+description = ""
+authors = ["Ahmet Çağatay Savaşlı <cagatay.savasli@ozu.edu.tr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.1"
+torchdata = "^0.9.0"
+transformers = "^4.46.3"
+datasets = "^3.1.0"
+evaluate = "^0.4.3"
+rouge-score = "^0.1.2"
+loralib = "^0.1.2"
+peft = "^0.13.2"
+jupyter = "^1.1.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+wordcloud = "^1.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
